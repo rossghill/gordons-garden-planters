@@ -4,7 +4,7 @@ body {
   color: #e8e3e3;
   margin: 0;
   border: 10px solid #21401D;
-  font-size: 24px; }
+  font-size: 22px; }
 
 a, a:visited {
   color: whitesmoke;
@@ -19,13 +19,13 @@ li a.active {
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 60px;
-  margin: 4rem;
+  margin: 2rem;
   border-bottom: 1px solid #21401D;
   padding-bottom: 1rem; }
 
 header {
   text-align: center;
-  padding: 0 0 2rem 0; }
+  padding: 0 0 1rem 0; }
   header nav ul {
     display: flex;
     flex-direction: row;
@@ -44,7 +44,7 @@ main .gallery {
   text-align: center;
   width: 100%;
   height: 550px;
-  margin: 2rem 0 6rem 0; }
+  margin: 0 0 3rem 0; }
   main .gallery .main-img {
     height: 100%;
     margin: auto; }
@@ -57,12 +57,17 @@ main section.main-text {
     font-size: 34px;
     margin-bottom: 4rem;
     margin-top: 0; }
+  main section.main-text p {
+    width: 60vw;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
 
 main .mobile-img {
   display: none; }
 
 main .bottom-img {
-  margin: 6rem 0;
+  margin: 3rem 0;
   display: flex;
   justify-content: center;
   height: 500px; }
@@ -71,10 +76,16 @@ main .bottom-img {
   background-color: #21401D;
   text-align: center;
   padding: 4rem; }
+  .catalog-text p, .contact-text p {
+    margin: auto;
+    width: 60vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
 
 .catalog-oct-container {
   padding-top: 6rem;
-  text-align: center; }
+  text-align: center;
+  margin: 5px; }
   .catalog-oct-container img {
     width: 75vw; }
   .catalog-oct-container__details {
@@ -136,7 +147,12 @@ footer {
     column-gap: 1.5rem;
     row-gap: 1rem; }
     .catalog-grid__item__details {
-      font-size: 18px; } }
+      font-size: 18px; }
+  .catalog-oct-container img {
+    width: 55vw; }
+  .catalog-oct-container__details {
+    width: 55vw;
+    font-size: 18px; } }
 
 @media (min-width: 900px) {
   .catalog-grid {
@@ -173,6 +189,8 @@ footer {
   .contact-img {
     height: 300px;
     padding: 2rem; }
+  .contact-text p {
+    width: 75vw; }
   main .bottom-img {
     height: 220px; } }
 
