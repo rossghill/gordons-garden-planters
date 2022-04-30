@@ -46,7 +46,6 @@ main .gallery {
   height: 550px;
   margin: 0 0 3rem 0; }
   main .gallery .main-img {
-    height: 100%;
     margin: auto; }
 
 main section.main-text {
@@ -170,10 +169,8 @@ footer {
     font-size: 18px; } }
 
 @media (max-width: 830px) {
-  main .gallery .main-img {
-    display: none; }
   main .gallery {
-    height: 350px; }
+    height: 300px; }
   main .gallery .mobile-img {
     display: block;
     margin: auto;
@@ -201,6 +198,8 @@ footer {
       margin: 8px; }
   header {
     padding: 0; }
+  .main-img {
+    width: 80vw; }
   h1 {
     margin: 2rem;
     font-size: 45px; }
