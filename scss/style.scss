@@ -62,11 +62,14 @@ header {
 main {
     .gallery {
         text-align: center;
-        width: 100%;
-        height: 550px;
-        margin: 0 0 3rem 0;
+        height: 350px;
+        // width: 100%;
+        // height: 550px;
+        margin: 0 0 5rem 0;
         .main-img {
             margin: auto;
+            height: 350px;
+            // height: 100%;
         }
     }
     section.main-text { 
@@ -168,18 +171,6 @@ footer {
 
 // Mobile responsive styles
 
-@media (max-width: 1600px){
-    main .gallery, main .gallery img {
-        height: 400px;
-    }
-}
-
-@media (max-width: 1200px){
-    main .gallery, main .gallery img {
-        height: 350px;
-    }
-}
-
 @media (max-width: 1035px){
     main .gallery, main .gallery img {
         height: 300px;
@@ -220,9 +211,6 @@ footer {
 }
 
 @media (max-width: 900px) {
-    main .gallery, main .gallery img {
-        height: 275px;
-    }
     .catalog-grid__item__details {
         font-size: 18px;
     }
@@ -271,8 +259,12 @@ footer {
     header {
         padding: 0;
     }
+    .gallery {
+        height: 200px !important;
+    }
     .main-img {
         width: 80vw;
+        height: initial !important;
     }
     h1 {
         margin: 2rem;
