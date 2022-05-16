@@ -192,7 +192,7 @@ footer {
     }
     .testimonial.t1::before {
         content: "";
-        background-image: url(/imgs-25-5-2022/gallery3.jpeg);
+        background-image: url(../imgs-25-5-2022/gallery3.jpeg);
         background-size: cover;
         position: absolute;
         top: 0px;
@@ -207,7 +207,7 @@ footer {
     // }
     .testimonial.t2::before {
         content: "";
-        background-image: url(/imgs/detail.jpeg);
+        background-image: url(../imgs/detail.jpeg);
         background-size: cover;
         background-position: center bottom;
         position: absolute;
@@ -220,7 +220,7 @@ footer {
     }
     .testimonial.t3::before {
         content: "";
-        background-image: url(/imgs-25-5-2022/gallery4.jpeg);
+        background-image: url(../imgs-25-5-2022/gallery4.jpeg);
         background-size: cover;
         background-position: center bottom;
         position: absolute;
@@ -277,6 +277,12 @@ footer {
 @media (max-width: 900px) {
     .catalog-grid__item__details {
         font-size: 18px;
+    }
+    .testimonials-container .testimonial {
+        width: 80%;
+        & p {
+            width: 90%;
+        }
     }
 }
 

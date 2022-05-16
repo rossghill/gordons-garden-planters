@@ -145,7 +145,7 @@ footer {
 
 .testimonials-container .testimonial.t1::before {
   content: "";
-  background-image: url(/Users/rosshill/Documents/gordons-garden-planters/imgs-25-5-2022/gallery3.jpeg);
+  background-image: url(../imgs-25-5-2022/gallery3.jpeg);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -157,7 +157,7 @@ footer {
 
 .testimonials-container .testimonial.t2::before {
   content: "";
-  background-image: url(file:///Users/rosshill/Documents/gordons-garden-planters/imgs/detail.jpeg);
+  background-image: url(../imgs/detail.jpeg);
   background-size: cover;
   background-position: center bottom;
   position: absolute;
@@ -170,7 +170,7 @@ footer {
 
 .testimonials-container .testimonial.t3::before {
   content: "";
-  background-image: url(file:///Users/rosshill/Documents/gordons-garden-planters/imgs-25-5-2022/gallery4.jpeg);
+  background-image: url(../imgs-25-5-2022/gallery4.jpeg);
   background-size: cover;
   background-position: center bottom;
   position: absolute;
@@ -212,7 +212,11 @@ footer {
 
 @media (max-width: 900px) {
   .catalog-grid__item__details {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .testimonials-container .testimonial {
+    width: 80%; }
+    .testimonials-container .testimonial p {
+      width: 90%; } }
 
 @media (max-width: 830px) {
   main .gallery {
